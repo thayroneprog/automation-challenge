@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34330.188
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutomationChallenge", "AutomationChallenge.csproj", "{5DDF6DB3-3CF8-4C65-9A0E-B1B734443A89}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain", "..\Domain\Domain.csproj", "{25133B2C-3F88-431A-B868-F2FC065E9881}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Itens de Solução", "Itens de Solução", "{BF432679-292A-4512-857A-33012A4B1203}"
+	ProjectSection(SolutionItems) = preProject
+		docker-compose.yml = docker-compose.yml
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5DDF6DB3-3CF8-4C65-9A0E-B1B734443A89}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5DDF6DB3-3CF8-4C65-9A0E-B1B734443A89}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5DDF6DB3-3CF8-4C65-9A0E-B1B734443A89}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5DDF6DB3-3CF8-4C65-9A0E-B1B734443A89}.Release|Any CPU.Build.0 = Release|Any CPU
+		{25133B2C-3F88-431A-B868-F2FC065E9881}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{25133B2C-3F88-431A-B868-F2FC065E9881}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{25133B2C-3F88-431A-B868-F2FC065E9881}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{25133B2C-3F88-431A-B868-F2FC065E9881}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E25BF96B-8DFF-43E5-B197-0D760A3B338B}
+	EndGlobalSection
+EndGlobal
