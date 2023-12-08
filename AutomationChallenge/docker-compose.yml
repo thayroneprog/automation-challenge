@@ -1,0 +1,22 @@
+version: '3'
+
+services:
+  # PostgreSQL Service
+  postgres:
+    image: postgres:latest
+    environment:
+      POSTGRES_DB: automationchallengedb
+      POSTGRES_USER: admin
+      POSTGRES_PASSWORD: admin
+    ports:
+      - "5432:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+ # Selenium Service
+  selenium:
+    image: selenium/standalone-chrome:latest
+    ports:
+      - "4444:4444"
+
+volumes:
+  pgdata:
